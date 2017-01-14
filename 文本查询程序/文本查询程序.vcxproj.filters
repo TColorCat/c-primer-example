@@ -32,10 +32,10 @@
     <ClCompile Include="stdafx.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="文本查询程序.cpp">
+    <ClCompile Include="textquery.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="textquery.cpp">
+    <ClCompile Include="c++primer_example.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

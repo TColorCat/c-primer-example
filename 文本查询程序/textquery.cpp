@@ -107,3 +107,16 @@ NotQuery::eval(const TextQuery &text)const
 
 	return QueryResult(rep(), ret_lines, result.get_file());
 }
+
+void test_textquery(const std::string&since)
+{
+	std::ifstream is(since);
+	TextQuery t1(is);
+	std::string word;
+	Query q = Query("fiery") & Query("bird") | Query("wind");
+	//Query q = Query("fiery");  
+	//Query q = Query("A");  
+	std::cout << q << std::endl;
+	std::cout << q.eval(t1) << std::endl;
+	//return 0;
+}

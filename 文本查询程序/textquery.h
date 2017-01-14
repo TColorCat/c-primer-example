@@ -167,4 +167,5 @@ inline Query operator|(const Query&lhs, const Query&rhs)
 }
 
 
+void test_textquery(const std::string&since);
 #endif
