@@ -1,5 +1,5 @@
 #include"stdafx.h"
-#include "head.h"  
+#include "textquery.h"  
 
 std::ostream& operator<<(std::ostream &os, const QueryResult &q)
 {

@@ -3,7 +3,7 @@
 
 #include "stdafx.h"
 
-#include"head.h"
+#include"textquery.h"
 int _tmain(int argc, _TCHAR* argv[])
 {
 	std::ifstream is(argv[1]);

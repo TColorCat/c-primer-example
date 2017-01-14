@@ -14,6 +14,7 @@
     <ProjectGuid>{255E6244-B9DC-4445-8FF1-9D97879286A6}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>文本查询程序</RootNamespace>
+    <ProjectName>c++primer example</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -79,7 +80,7 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="head.h" />
+    <ClInclude Include="textquery.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
