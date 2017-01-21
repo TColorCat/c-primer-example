@@ -4,15 +4,15 @@
 #include "stdafx.h"
 #include"193P.h"
 #include"textquery.h"
+#include"usingRTTI.h"
 using namespace P193s;
+using namespace RTTI;
+using namespace std;
+
+
 int _tmain(int argc, _TCHAR* argv[])
 {
-	A*pa = new C;
-	if (C*pc = dynamic_cast<C*>(pa))
-		pc->c;
-	else
-		pc->a;
-	
+
 	return 0;
 }
 

@@ -33,6 +33,12 @@
     <ClInclude Include="193P.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="usingRTTI.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="function模板.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -42,6 +48,9 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="c++primer_example.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RTTI.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
